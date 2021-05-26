@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+		<head>	
+			<title>
+				My Form
+			</title>
+			<link href="formlayout.css" rel="stylesheet" type="text/css">
+		</head>
+			<body>
+				<form action="main.html" method="post" target="_blank">
+					<fieldset>
+						<legend>Personal Information</legend>
+						First name:
+						<input type="name" required="required" placeholder=" Firstname here">
+						Middle name:
+						<input type="name" placeholder=" Middlename Here(Optional)">
+						Last name:
+						<input type="name" required="required" placeholder=" Lastname here"><br><br>
+						Email:
+						<input type="Email" name="email" placeholder=" someone@example.com">
+						Password:
+						<input type="Password" name="psw" required="required"><br><br>	
+						Address:<br>
+						<input type="name" name="address"><br><br>
+						Phone number:<br>
+						<input type="number" name="phnno." value="phnno."><br><br>
+						</fieldset>
+					<br> 
+
+					<fieldset>
+						<legend>Payment Method</legend>
+						<input type="radio" name="payment" value="cod">Cash on Delivery
+						<input type="radio" name="payment" value="cardpayment">Card Payment
+						<input type="radio" name="payment" vaalue="esewa" >Esewa
+					</fieldset>
+					<br>
+
+					<input type="submit" value="submit">
+
+				</form>
+			</body>
+	</html>
