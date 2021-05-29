@@ -1,7 +1,7 @@
 .div1{
 	background-color: red;
 	height:300px;
-	width:300px;
+	width:400px;
 	border-radius: 15px 15px 15px 15px;
 	border:10px solid;
 	border-image:url("blue.png") 30 round;
